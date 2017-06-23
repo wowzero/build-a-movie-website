@@ -1,6 +1,8 @@
 import webbrowser
 
 class Moive():
+
+    VALID_RATING = ["G", "PG", "PG-13", "R"]
     
     def __init__(self, moive_title, moive_storyline, poster_image, trailer_youtube):
         self.title = moive_title
