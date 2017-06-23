@@ -1,6 +1,7 @@
 import webbrowser
 
-class Moive():
+class Movie():
+    """ This class provides a way to store movies related information """
 
     VALID_RATING = ["G", "PG", "PG-13", "R"]
     
